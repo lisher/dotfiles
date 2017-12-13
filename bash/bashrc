@@ -1,0 +1,17 @@
+# to be updated from tcsh rc
+
+# set history = 500
+
+# setenv EDITOR gvim
+
+# rasta prompt
+# if ($?TERM) then
+  #
+  # Set a git prompt
+  #
+#   alias getCurrentGitBranch 'git rev-parse --symbolic-full-name --abbrev-ref HEAD |& sed -n "/ /d; s/\(..*\)/ (\1)/p"'
+#   alias getCurrentGitWorkview '~/scripts/get_wv.sh '
+
+#   alias precmd set 'prompt="%{\033[1;31;31m%}[%m]%{\033[32m%}[  %B`getCurrentGitWorkview``getCurrentGitBranch` ]%{\033[33m%}[%c3]%{\033[37m%}:"'
+
+# endif
