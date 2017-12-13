@@ -1,0 +1,27 @@
+[user]
+	name = lisher
+	email = lisher.bass@gmail.com
+[core]
+  editor = gvim -f
+	excludesfile = ~/.gitignore
+[diff]
+	tool = gvimdiff
+[alias]
+	glog = log --all --graph --oneline --decorate
+[log]
+  decorate = full
+[color]
+	ui = true
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	new = green bold
+	old = red bold
+	frag = green bold
+	meta = yellow bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
