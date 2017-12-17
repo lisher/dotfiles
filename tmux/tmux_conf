@@ -22,6 +22,7 @@ bind-key -t vi-copy 'v' begin-selection
 bind-key -t vi-copy 'y' copy-selection
 
 set-option -g default-shell /bin/bash
+set -g default-terminal "xterm-256color"
 
 # remap prefix from 'C-b' to 'C-a'
 unbind C-b
