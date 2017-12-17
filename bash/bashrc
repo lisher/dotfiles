@@ -1,7 +1,12 @@
 EDITOR=vim
 
+# Returns last 3 directories in PWD
+function pwdn {
+  pwd | awk -F\/ '{print $(NF-2),$(NF-1),$(NF)}' | sed 's@ @\/@g'
+}
+
 # rasta prompt
-PS1="\[\e]0;\u@\h \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;31m\][\u@\h]\[\033[00m\]\[\033[01;33m\]\$(__git_ps1 '[%s]')\[\033[00m\]\[\033[01;32m\][\w]\[\033[00m\] "
+PS1="\[\e]0;\u@\h \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;31m\][\u@\h]\[\033[00m\]\[\033[01;33m\]\$(__git_ps1 '[%s]')\[\033[00m\]\[\033[01;32m\][\$(pwdn)]\[\033[00m\] "
 
 if [ -f ~/.bash_aliases]; then
   . ~/.bash_aliases
