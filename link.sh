@@ -9,7 +9,7 @@ BASH_ALIASES=~/.bash_aliases
 GITCONFIG=~/.gitconfig
 GITIGNORE=~/.gitignore
 
-TMUX_CONF=~/tmux.conf
+TMUX_CONF=~/.tmux.conf
 
 # $1 - target config file
 # $2 - relative path to file in this repo to link as target
