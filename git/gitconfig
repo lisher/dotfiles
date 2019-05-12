@@ -2,7 +2,7 @@
 	name = lisher
 	email = lisher.bass@gmail.com
 [core]
-  editor = gvim -f
+  editor = vim
 	excludesfile = ~/.gitignore
 [diff]
 	tool = gvimdiff

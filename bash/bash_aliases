@@ -1,1 +1,2 @@
 alias tmux='TERM=xterm-256color tmux -u'
+alias ll='ls -alh'
