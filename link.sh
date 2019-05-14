@@ -3,6 +3,8 @@
 # path to the repo from which this script was executed
 CURRENT_REPO=$(dirname $(readlink -f $0))
 
+PROFILE_CONF=~/.profile
+
 BASHRC=~/.bashrc
 BASH_ALIASES=~/.bash_aliases
 
@@ -45,6 +47,8 @@ create_link()
   ln -s $CURRENT_REPO/$2 $1
 
 }
+
+create_link $PROFILE_CONF general/profile
 
 create_link $BASHRC bash/bashrc
 create_link $BASH_ALIASES bash/bash_aliases
