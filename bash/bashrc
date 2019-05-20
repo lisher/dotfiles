@@ -99,6 +99,6 @@ fi
 
 unset color_prompt force_color_prompt
 
-if [ -f ~/.bash_aliases]; then
+if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
