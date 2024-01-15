@@ -15,6 +15,9 @@ Prefix - moved from Ctrl+b to Ctrl+a
 - in tmux run "prefix + I" to install plugins
 - added Vi style copying
 
+### Prerequisites
+- fzf - for tmux-fzf
+
 ### Keymapping
 - `Ctrl+a` - prefix
 
