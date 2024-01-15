@@ -54,5 +54,5 @@ Prefix - moved from Ctrl+b to Ctrl+a
   Pane navigation common with vim.
 - sainnhe/tmux-fzf
 - junegunn/tmux-fzf-url
-- fcsonline/tmux-thumbs
-  Quick select for predefined data types like SHA, IP addresses, url etc.
+- laktak/extrakto
+  Fuzzy extracting strings from tmux pane content.
